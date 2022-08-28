@@ -4,7 +4,6 @@ import java.util.PriorityQueue;
 public class Solution {
 
     public int[][] diagonalSort(int[][] inputMatrix) {
-
         for (int row = 0; row < inputMatrix.length; ++row) {
             sortDiagonal(inputMatrix, row, 0);
         }
